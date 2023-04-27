@@ -1,0 +1,36 @@
+[[HDF5]]
+arch = "x86_64"
+git-tree-sha1 = "26b0594b7201c09f1d65e3f3db354078c6df0cba"
+lazy = true
+libgfortran_version = "4.0.0"
+mpi = "mpich"
+os = "macos"
+
+    [[HDF5.download]]
+    sha256 = "d4e3389c98745f18c45c8b775b51c41e5d61f02020c0c361f61af322ae7f755f"
+    url = "https://github.com/eschnett/HDF5_jll.jl/releases/download/HDF5-v1.14.0+0/HDF5.v1.14.0.x86_64-apple-darwin-libgfortran4-mpi+mpich.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "3e9cba51476ff26650d613ea6eead41548262aeb"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[HDF5.download]]
+    sha256 = "53eb31fd92a06637342d36d40b3a0ff2439e92d953f30a7ed49458a16533f1ab"
+    url = "https://github.com/eschnett/HDF5_jll.jl/releases/download/HDF5-v1.14.0+0/HDF5.v1.14.0.x86_64-linux-gnu-libgfortran5-cxx11-mpi+mpich.tar.gz"
+[[HDF5]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "366e265e63b7fabd42c20a07f0b148443f24bf13"
+lazy = true
+libgfortran_version = "5.0.0"
+mpi = "microsoftmpi"
+os = "windows"
+
+    [[HDF5.download]]
+    sha256 = "553119b15045871f2ca5138d3a1ac4ea5343299ed4df67977078e773ed9574be"
+    url = "https://github.com/eschnett/HDF5_jll.jl/releases/download/HDF5-v1.14.0+0/HDF5.v1.14.0.x86_64-w64-mingw32-libgfortran5-cxx11-mpi+microsoftmpi.tar.gz"
